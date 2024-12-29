@@ -12,7 +12,7 @@ if [ -d $checkpoint_name ]; then
     exit 0
 fi
 
-wget -nv --show-progress https://share.phys.ethz.ch/~pf/bingkedata/marigold/checkpoint/${checkpoint_name}.tar
+proxychains wget -nv --show-progress https://share.phys.ethz.ch/~pf/bingkedata/marigold/checkpoint/${checkpoint_name}.tar
 
 tar -xf ${checkpoint_name}.tar
 rm ${checkpoint_name}.tar

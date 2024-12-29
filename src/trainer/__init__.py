@@ -2,10 +2,12 @@
 # Last modified: 2024-05-17
 
 from .marigold_trainer import MarigoldTrainer
+from .controlnet_marigold_trainer import ControlNetMarigoldTrainer
 
 
 trainer_cls_name_dict = {
     "MarigoldTrainer": MarigoldTrainer,
+    "ControlNetMarigoldTrainer": ControlNetMarigoldTrainer,
 }
 
 

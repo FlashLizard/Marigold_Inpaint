@@ -5,9 +5,11 @@
 /input
 /output
 /temp
+/tmp
 /wandb
 /venv
 /cache
+/DL3DV-ALL-960P
 
 **/.ipynb_checkpoints/
 .vscode/

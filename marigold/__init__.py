@@ -19,3 +19,4 @@
 
 
 from .marigold_pipeline import MarigoldPipeline, MarigoldDepthOutput  # noqa: F401
+from .controlnet import ControlNetMarigoldPipeline  # noqa: F401
